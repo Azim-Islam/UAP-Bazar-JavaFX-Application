@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CustomMenuItem?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="663.0" prefWidth="534.0" style="-fx-background-color: #2d3436;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.AdminPanel.AddProdController">
+   <children>
+      <MenuButton alignment="CENTER" contentDisplay="CENTER" graphicTextGap="100.0" layoutX="97.0" layoutY="140.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="322.0" style="-fx-background-color: #e84118;" text="SELECT SUB-CATEGORY" textAlignment="CENTER" textFill="WHITE">
+         <items>
+            <CustomMenuItem mnemonicParsing="false" text="Unspecified Action">
+               <content>
+                  <Button fx:id="MEN" alignment="CENTER" mnemonicParsing="false" onAction="#selectSub" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="MEN" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+                           <color>
+                              <Color opacity="0.5600000023841858" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+               </content>
+            </CustomMenuItem>
+            <CustomMenuItem mnemonicParsing="false" text="Unspecified Action">
+               <content>
+                  <Button fx:id="WOMEN" alignment="CENTER" mnemonicParsing="false" onAction="#selectSub" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="WOMEN" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+                           <color>
+                              <Color opacity="0.5600000023841858" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+               </content>
+            </CustomMenuItem>
+            <CustomMenuItem mnemonicParsing="false" text="Unspecified Action">
+               <content>
+                  <Button fx:id="KIDS" alignment="CENTER" mnemonicParsing="false" onAction="#selectSub" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="KIDS" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+                           <color>
+                              <Color opacity="0.5600000023841858" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+               </content>
+            </CustomMenuItem>
+         </items>
+         <font>
+            <Font name="Hack Regular" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="70.0" radius="29.5" width="50.0" />
+         </effect>
+      </MenuButton>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="OVERLAY" fill="DODGERBLUE" height="66.0" layoutX="100.0" layoutY="44.0" stroke="#433939e3" strokeType="INSIDE" style="-fx-fill: #2c3e50;" width="316.0">
+         <effect>
+            <DropShadow height="53.61" radius="28.53" spread="0.3" width="62.51">
+               <color>
+                  <Color red="0.1725490242242813" green="0.24313725531101227" blue="0.3137255012989044" opacity="0.3799999952316284" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="OVERLAY" fill="DODGERBLUE" height="66.0" layoutX="100.0" layoutY="256.0" stroke="#433939e3" strokeType="INSIDE" style="-fx-fill: #2c3e50;" width="316.0">
+         <effect>
+            <DropShadow height="53.61" radius="28.53" spread="0.3" width="62.51">
+               <color>
+                  <Color red="0.1725490242242813" green="0.24313725531101227" blue="0.3137255012989044" opacity="0.3799999952316284" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Text layoutX="146.0" layoutY="87.0" lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30; -fx-font-family: Hack; -fx-fill: white;" text="SUB-CATEGORY" textAlignment="CENTER" wrappingWidth="223.72265625">
+         <effect>
+            <Glow level="0.9" />
+         </effect>
+      </Text>
+      <Text layoutX="213.0" layoutY="299.0" lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30; -fx-font-family: Hack; -fx-fill: white;" text="SIZE" textAlignment="CENTER" wrappingWidth="107.72265625">
+         <effect>
+            <Glow level="0.9" />
+         </effect>
+      </Text>
+      <Button fx:id="CLOTH" alignment="CENTER" contentDisplay="CENTER" layoutX="416.0" layoutY="529.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="70.0" prefWidth="70.0" style="-fx-font-family: Hack; -fx-background-color: #2ed573; -fx-font-size: 24; -fx-text-fill: #2d3436; -fx-background-radius: 100; -fx-border-radius: 5; -fx-font-weight: Bolder;" text="✓" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="79.56" radius="39.465" spread="0.53" width="80.3">
+               <color>
+                  <Color opacity="0.5" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <MenuButton alignment="CENTER" contentDisplay="CENTER" layoutX="97.0" layoutY="363.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="322.0" style="-fx-background-color: #e84118;" text="SELECT SIZE" textFill="WHITE">
+        <items>
+            <CustomMenuItem mnemonicParsing="false" text="Unspecified Action">
+               <content>
+                  <Button fx:id="SMALL" alignment="CENTER" mnemonicParsing="false" onAction="#selectSize" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="SMALL" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+                           <color>
+                              <Color opacity="0.5600000023841858" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+               </content>
+            </CustomMenuItem>
+            <CustomMenuItem mnemonicParsing="false" text="Unspecified Action">
+               <content>
+                  <Button fx:id="MEDIUM" alignment="CENTER" mnemonicParsing="false" onAction="#selectSize" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="MEDIUM" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+                           <color>
+                              <Color opacity="0.5600000023841858" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+               </content>
+            </CustomMenuItem>
+            <CustomMenuItem mnemonicParsing="false" text="Unspecified Action">
+               <content>
+                  <Button fx:id="XL" alignment="CENTER" mnemonicParsing="false" onAction="#selectSize" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="XL" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+                           <color>
+                              <Color opacity="0.5600000023841858" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+               </content>
+            </CustomMenuItem>
+            <CustomMenuItem mnemonicParsing="false" text="Unspecified Action">
+               <content>
+                  <Button fx:id="XXL" alignment="CENTER" mnemonicParsing="false" onAction="#selectSize" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="XXL" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+                           <color>
+                              <Color opacity="0.5600000023841858" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+               </content>
+            </CustomMenuItem>
+        </items>
+         <font>
+            <Font name="Hack Regular" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="70.0" radius="29.5" width="50.0" />
+         </effect>
+      </MenuButton>
+   </children>
+</AnchorPane>

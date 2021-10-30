@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="794.0" prefWidth="534.0" style="-fx-background-color: #2d3436;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.AdminPanel.AddProdController">
+   <children>
+      <Button fx:id="MEN" alignment="CENTER" layoutX="181.0" layoutY="140.0" mnemonicParsing="false" onAction="#selectSub" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="MEN" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+               <color>
+                  <Color opacity="0.5600000023841858" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="WOMEN" alignment="CENTER" layoutX="181.0" layoutY="200.0" mnemonicParsing="false" onAction="#selectSub" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="WOMEN" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+               <color>
+                  <Color opacity="0.5600000023841858" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="KIDS" alignment="CENTER" layoutX="181.0" layoutY="265.0" mnemonicParsing="false" onAction="#selectSub" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="KIDS" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+               <color>
+                  <Color opacity="0.5600000023841858" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="SMALL" alignment="CENTER" layoutX="181.0" layoutY="457.0" mnemonicParsing="false" onAction="#selectSize" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="SMALL" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+               <color>
+                  <Color opacity="0.5600000023841858" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="MEDIUM" alignment="CENTER" layoutX="181.0" layoutY="512.0" mnemonicParsing="false" onAction="#selectSize" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="MEDIUM" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+               <color>
+                  <Color opacity="0.5600000023841858" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="XL" alignment="CENTER" layoutX="181.0" layoutY="570.0" mnemonicParsing="false" onAction="#selectSize" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="XL" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+               <color>
+                  <Color opacity="0.5600000023841858" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="XXL" alignment="CENTER" layoutX="181.0" layoutY="626.0" mnemonicParsing="false" onAction="#selectSize" prefHeight="36.0" prefWidth="154.0" style="-fx-font-family: Hack; -fx-background-color: #575fcf; -fx-font-size: 20; -fx-text-fill: white; -fx-background-radius: 5; -fx-border-radius: 5;" text="XXL" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="69.63" radius="34.0175" spread="0.3" width="68.44">
+               <color>
+                  <Color opacity="0.5600000023841858" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="OVERLAY" fill="DODGERBLUE" height="66.0" layoutX="100.0" layoutY="44.0" stroke="#433939e3" strokeType="INSIDE" style="-fx-fill: #2c3e50;" width="316.0">
+         <effect>
+            <DropShadow height="53.61" radius="28.53" spread="0.3" width="62.51">
+               <color>
+                  <Color red="0.1725490242242813" green="0.24313725531101227" blue="0.3137255012989044" opacity="0.3799999952316284" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="OVERLAY" fill="DODGERBLUE" height="66.0" layoutX="100.0" layoutY="358.0" stroke="#433939e3" strokeType="INSIDE" style="-fx-fill: #2c3e50;" width="316.0">
+         <effect>
+            <DropShadow height="53.61" radius="28.53" spread="0.3" width="62.51">
+               <color>
+                  <Color red="0.1725490242242813" green="0.24313725531101227" blue="0.3137255012989044" opacity="0.3799999952316284" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Text layoutX="146.0" layoutY="87.0" lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30; -fx-font-family: Hack; -fx-fill: white;" text="SUB-CATEGORY" textAlignment="CENTER" wrappingWidth="223.72265625">
+         <effect>
+            <Glow level="0.9" />
+         </effect>
+      </Text>
+      <Text layoutX="213.0" layoutY="401.0" lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30; -fx-font-family: Hack; -fx-fill: white;" text="SIZE" textAlignment="CENTER" wrappingWidth="107.72265625">
+         <effect>
+            <Glow level="0.9" />
+         </effect>
+      </Text>
+      <Button fx:id="CLOTH" alignment="CENTER" contentDisplay="CENTER" layoutX="416.0" layoutY="686.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="70.0" prefWidth="70.0" style="-fx-font-family: Hack; -fx-background-color: #2ed573; -fx-font-size: 24; -fx-text-fill: #2d3436; -fx-background-radius: 100; -fx-border-radius: 5; -fx-font-weight: Bolder;" text="✓" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="79.56" radius="39.465" spread="0.53" width="80.3">
+               <color>
+                  <Color opacity="0.5" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

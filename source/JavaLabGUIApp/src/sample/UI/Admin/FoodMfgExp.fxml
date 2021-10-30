@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="406.0" prefWidth="572.0" style="-fx-background-color: #2d3436;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.AdminPanel.AddProdController">
+   <children>
+      <Text layoutX="21.0" layoutY="87.0" lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30; -fx-font-family: Hack; -fx-fill: white;" text="MFG DATE" textAlignment="CENTER" wrappingWidth="205.72265625">
+         <effect>
+            <Glow level="0.9" />
+         </effect>
+      </Text>
+      <Text layoutX="-5.0" layoutY="211.0" lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30; -fx-font-family: Hack; -fx-fill: white;" text="EXPIRY DATE" textAlignment="CENTER" wrappingWidth="243.72265625">
+         <effect>
+            <Glow level="0.9" />
+         </effect>
+      </Text>
+      <Button fx:id="FOOD" alignment="CENTER" contentDisplay="CENTER" layoutX="459.0" layoutY="300.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="70.0" prefWidth="70.0" style="-fx-font-family: Hack; -fx-background-color: #2ed573; -fx-font-size: 24; -fx-text-fill: #2d3436; -fx-background-radius: 100; -fx-border-radius: 5; -fx-font-weight: Bolder;" text="✓" textFill="#ffffffe3" textOverrun="LEADING_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="79.56" radius="39.465" spread="0.53" width="80.3">
+               <color>
+                  <Color opacity="0.5" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <DatePicker fx:id="mfg" layoutX="259.0" layoutY="42.0" prefHeight="70.0" prefWidth="235.0" promptText="Manufacturing Date" style="-fx-font-size: 24; -fx-alignment: center;" />
+      <DatePicker fx:id="exp" layoutX="259.0" layoutY="166.0" prefHeight="70.0" prefWidth="235.0" promptText="Expirary Date" style="-fx-font-size: 24; -fx-alignment: center;" />
+   </children>
+</AnchorPane>
