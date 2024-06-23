@@ -1,4 +1,4 @@
-![image](https://github.com/Azim-Islam/UAP-Bazar-JavaFX-Application/assets/65490972/734182dc-ca5a-437c-a5aa-c9b74eee1ab0)# JavaFX Project with SceneBuilder 🎨
+# JavaFX Desktop Application Project with SceneBuilder 🎨
 
 Welcome to the **JavaFX Project** repository! This project is created using **Java** and the **JavaFX** library, and it utilizes **SceneBuilder** for the frontend layout design. It is a comprehensive project that covers all the essential Object-Oriented Programming (OOP) concepts and employs serialization to store data efficiently.
 
