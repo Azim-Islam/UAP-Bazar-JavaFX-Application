@@ -3,7 +3,7 @@
 Welcome to the **JavaFX Project** repository! This project is created using **Java** and the **JavaFX** library, and it utilizes **SceneBuilder** for the frontend layout design. It is a comprehensive project that covers all the essential Object-Oriented Programming (OOP) concepts and employs serialization to store data efficiently.
 
 ## Releases 📚
-- Download Binary Desktop Application from -> https://github.com/Azim-Islam/UAP-Bazar-JavaFX-Application/releases/tag/Alpha-Release
+- Download Binary Desktop Application from - https://github.com/Azim-Islam/UAP-Bazar-JavaFX-Application/releases/tag/Alpha-Release
 
 ## Introduction 📝
 
@@ -75,8 +75,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Md. Azim Islam**
 
-- [GitHub](https://github.com/your-username)
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin)
+- [GitHub](https://github.com/Azim-Islam)
+- [Facebook](https://www.facebook.com/ANHW.ogg/)
 
 ---
 
